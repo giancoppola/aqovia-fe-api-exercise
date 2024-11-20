@@ -1,0 +1,27 @@
+{
+  "name": "front-end-exercise",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "node server/api",
+    "dev": "nodemon",
+    "start": "tsc --project tsconfig.json && webpack && node ./server/api.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "validate-date": "^2.0.0",
+    "webpack": "^5.96.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
