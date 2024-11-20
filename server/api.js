@@ -120,7 +120,7 @@ api.delete('/api/students/:id', (req, res) => {
 api.use('/docs', express.static('docs'));
 api.use('/public', express.static('dist'));
 
-api.get('/app', (req, res) => {
+api.get('/', (req, res) => {
   res.sendFile(__dirname + '/html/app.html');
 })
 
